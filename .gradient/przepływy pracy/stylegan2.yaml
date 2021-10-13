@@ -27,7 +27,7 @@ jobs:
         type: dataset
         with:
           ref: demo-dataset
-    uses: script@v1
+    uses: script@v1 
     with:
       script: |-
         pip install scipy==1.3.3
